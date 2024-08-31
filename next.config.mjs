@@ -1,13 +1,9 @@
-// next.config.mjs
+const isProd = process.env.NODE_ENV === 'production';
 
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  output: 'export',
+export default {
+  assetPrefix: isProd ? '/createnplay/' : '',
+  basePath: isProd ? '/createnplay' : '',
   images: {
     unoptimized: true,
   },
-  basePath: '/createnplay', 
-  assetPrefix: '/createnplay/', 
 };
-
-export default nextConfig;

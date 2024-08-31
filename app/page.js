@@ -4,10 +4,10 @@ import React, { useState, useEffect } from 'react';
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import Image from 'next/image';
-import YourImage1 from '../img1.jpg';  
-import YourImage2 from '../img2.jpg'; 
-import YourImage3 from '../img3.jpg'; 
-import Logo from '../image.jpg'; 
+import YourImage1 from 'public/img1.jpg';  
+import YourImage2 from 'public/img2.jpg'; 
+import YourImage3 from 'public/img3.jpg'; 
+import Logo from 'public/image.jpg'; 
 
 const ParticlesBackground = () => {
   const particlesInit = async (main) => {

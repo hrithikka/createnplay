@@ -91,7 +91,7 @@ const Slideshow = () => {
     }, 3000);
 
     return () => clearInterval(intervalId);
-  }, []);
+  }, [images.length]);
 
   return (
     <section id="slideshow" className="relative w-full h-[60vh] overflow-hidden">
@@ -117,7 +117,7 @@ const WelcomeSection = () => (
       height={80} 
       className="animate-bounce mb-4" 
     />
-    <h1 className="text-4xl font-bold">Welcome to Create'n'Play</h1>
+    <h1 className="text-4xl font-bold">Welcome to Create&apos;n&apos;Play</h1>
     <p className="mt-4 text-lg">Your ultimate gaming companion.</p>
   </section>
 );

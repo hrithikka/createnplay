@@ -148,7 +148,7 @@ const GetStarted = () => (
   <section id="get-started" className="min-h-screen flex items-center justify-center bg-gray-900 py-12">
     <div className="text-center">
       <h2 className="text-4xl font-bold mb-4">Get Started</h2>
-      <p className="text-lg mb-6">Begin your journey with Create'n'Play now.</p>
+      <p className="text-lg mb-6">Begin your journey with Create&apos;n&apos;Play now.</p>
       <button 
         className="bg-indigo-700 text-white px-6 py-3 rounded-full hover:bg-indigo-600 transition-colors duration-300" 
         onClick={() => window.location.href = 'https://discord.com/oauth2/authorize?client_id=1238491878580817930'}

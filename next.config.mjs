@@ -1,9 +1,7 @@
-const isProd = process.env.NODE_ENV === 'production';
-
-export default {
-  assetPrefix: isProd ? '/createnplay/' : '',
-  basePath: isProd ? '/createnplay' : '',
+const config = {
   images: {
     unoptimized: true,
   },
 };
+
+export default config;
